@@ -113,6 +113,11 @@ PRODUCT_PACKAGES += \
     libnl_2 \
     libtinyxml
 
+ # Camera
+PRODUCT_PACKAGES += \
+    Snap \
+    camera.qcom
+
 PRODUCT_PACKAGES += libshim_qcopt
 
 PRODUCT_COPY_FILES += \
