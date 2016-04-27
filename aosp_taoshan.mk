@@ -15,10 +15,10 @@
 $(call inherit-product, device/sony/taoshan/full_taoshan.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/aosp/config/nfc_enhanced.mk)
 
-# Inherit CM common Phone stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit AOSP common Phone stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
 # Set build fingerprint / ID / Prduct Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
@@ -28,4 +28,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Override some inherited defines
 PRODUCT_DEVICE := taoshan
-PRODUCT_NAME := cm_taoshan
+PRODUCT_NAME := aosp_taoshan
