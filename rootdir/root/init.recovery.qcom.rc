@@ -4,3 +4,4 @@ on init
     write /sys/class/android_usb/android0/functions mass_storage,adb
     write /sys/class/android_usb/f_mass_storage/serial_number ${ro.serialno}
     write /sys/class/android_usb/f_mass_storage/eui64_id 000AD90000000000
+    write /sys/module/msm_fb/parameters/align_buffer 0
