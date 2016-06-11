@@ -26,7 +26,18 @@ const char *mr_init_devices[] =
     "/sys/devices/i2c-3/3-0024/input/input2",
     "/sys/class/misc/uinput",
     "/sys/devices/platform/gpio-keys/input/input11",
-
+    "/sys/class/input/input0",
+    "/sys/class/input/input1",
+    "/sys/class/input/input2",
+    "/sys/class/input/input3",
+    "/sys/class/input/input4",
+    "/sys/class/input/input11",
+    "/sys/class/input/event0",
+    "/sys/class/input/event1",
+    "/sys/class/input/event2",
+    "/sys/class/input/event3",
+    "/sys/class/input/event4",
+    "/sys/class/input/event11",
 
     // ADB
     "/sys/class/tty/ptmx",
