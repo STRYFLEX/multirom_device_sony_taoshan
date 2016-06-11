@@ -159,6 +159,7 @@ TW_THEME := portrait_mdpi
 # MultiROM configuration
 MR_INPUT_TYPE := type_b
 MR_INIT_DEVICES := device/sony/taoshan/multirom/mr_init_devices.c
+MR_ALLOW_NKK71_NOKEXEC_WORKAROUND := true
 MR_DPI := hdpi
 MR_DPI_FONT := 180
 MR_FSTAB := device/sony/taoshan/rootdir/root/twrp.fstab
