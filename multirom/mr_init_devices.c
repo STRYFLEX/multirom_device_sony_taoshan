@@ -9,8 +9,9 @@ const char *mr_init_devices[] =
 {
     // FrameBuffers
     "/sys/devices/virtual/graphics/fb0",
+    "/sys/class/graphics/fb0",
 
-    // Storage Devices
+   // Storage Devices
     "/sys/block/mmcblk0",
     "/sys/devices/platform/msm_sdcc.1*",
     "/sys/devices/platform/msm_sdcc.3*",
@@ -21,6 +22,9 @@ const char *mr_init_devices[] =
     // Inputs
     "/sys/devices/virtual/input*",
     "/sys/devices/virtual/misc/uinput",
+
+    "/sys/class/input/event*",
+    "/sys/class/input/input*",
 
     "/sys/devices/platform/gpio-keys/input*",
     "/sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-pwrkey/input*",
