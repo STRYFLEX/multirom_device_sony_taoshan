@@ -66,8 +66,6 @@ TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_VARIANT := krait
 
 # TWRP configurations
-
-RECOVERY_GRAPHICS_USE_LINELENGTH := true
 RECOVERY_SDCARD_ON_DATA := true
 TARGET_RECOVERY_FSTAB := device/sony/taoshan/rootdir/twrp.fstab
 TW_BRIGHTNESS_PATH := /sys/class/leds/lcd-backlight/brightness
@@ -92,7 +90,7 @@ TW_THEME := portrait_mdpi
 TW_IGNORE_ABS_MT_TRACKING_ID := true
 
 # MultiROM configuration
-MR_INPUT_TYPE := type_b
+MR_INPUT_TYPE := type_a
 MR_INIT_DEVICES := device/sony/taoshan/multirom/mr_init_devices.c
 MR_DPI := hdpi
 MR_DPI_FONT := 180
@@ -101,6 +99,7 @@ MR_USE_MROM_FSTAB := true
 MR_KEXEC_MEM_MIN := 0x85000000
 MR_DEVICE_VARIANTS := C2105 C2104
 MR_UNIFIED_TABS := true
+RECOVERY_GRAPHICS_USE_LINELENGTH := true
 
 # MultiROM build
 DEVICE_RESOLUTION := 720x1280
